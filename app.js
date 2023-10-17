@@ -38,3 +38,9 @@ parrafo.addEventListener("copy", (event) => {
     event.clipboardData.setData("text/plain", "https://www.facebook.com/PinguinasRugbyBurgos/"); //texto que copiamos en el clipboard
     event.preventDefault();
 });
+
+
+parrafo.addEventListener("paste", (event) => {
+    alert("no me peges, por favor, soy un simple parrafo, me siento abusado")
+    event.preventDefault();
+});
